@@ -1,0 +1,69 @@
+.cabecalho {
+    background-color: var(--verde-claro);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+}
+
+.logo {}
+
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.direcionamento {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+
+.banner {
+    background: #FDECAF;
+    background: linear-gradient(180deg, rgba(253, 236, 175, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    position: relative;
+}
+
+.absoluteTeste {
+    background: #FDECAF;
+    background: linear-gradient(180deg, rgba(253, 236, 175, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* background: #FDECAF;
+background: linear-gradient(0deg, rgba(253, 236, 175, 0) 0%, rgba(253, 236, 175, 1) 100%); */
+
+
+.fundo-campo {
+    width: 20%;
+}
+
+.fundoTorto {
+    /* position: relative; */
+    transform: rotate(1deg);
+    width: 50%;
+    height: 50%;
+    background-color: var(--azul-claro);
+}
+
+.textoBemvindo {
+    top: 20%;
+    left: 30%;
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    background-color: #fff6e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 6rem;
+}

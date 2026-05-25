@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-padrao);
+}
+
+body {
+    background-color: darkgray;
+}
+
+:root {
+    --verde-claro: #5cc256;
+    --amarelo-claro: #fdecaf;
+    --azul-claro: #b1d0ff;
+
+    --tamanho-titulo: 36px;
+    --tamanho-titulo-responsivo: 35px;
+    --tamanho-subtitulo: 32px;
+    --tamanho-texto-btn: 150%;
+    --fonte-texto: 130%;
+    --fonte-padrao: "Bebas Neue", sans-serif;
+}
