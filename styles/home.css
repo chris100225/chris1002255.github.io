@@ -41,27 +41,29 @@ background: linear-gradient(0deg, rgba(253, 236, 175, 0) 0%, rgba(253, 236, 175,
 
 
 .fundo-campo {
-    width: 20%;
-}
-
-.fundoTorto {
-    /* position: relative; */
-    transform: rotate(1deg);
-    width: 50%;
-    height: 50%;
-    background-color: var(--azul-claro);
+    width: 19%;
 }
 
 .textoBemvindo {
+    position: absolute;
+    width: 36%;
+    height: 61%;
     top: 20%;
     left: 30%;
+    background-color: var(--azul-claro);
+}
+
+.fundoTorto {
+    top: 19%;
+    left: 29%;
     position: absolute;
-    width: 40%;
-    height: 50%;
-    background-color: #fff6e7;
+    width: 38%;
+    height: 65%;
+    background-color: var(--amarelo-claro);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transform: rotate(4deg);
 }
 
 h1 {
