@@ -1,12 +1,14 @@
 .cabecalho {
-    background-color: var(--verde-claro);
+    background-color: rgb(131, 211, 125);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 10vh;
+    height: 12vh;
 }
 
-.logo {}
+.logo {
+    padding: 5%;
+}
 
 .navegacao {
     display: flex;
@@ -17,7 +19,7 @@
 .direcionamento {
     text-decoration: none;
     list-style-type: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
@@ -67,22 +69,24 @@
 }
 
 h1 {
-    font-size: 700%;
+    font-size: 5rem;
     font-weight: 800;
 }
 
 .introTxt {
-    font-size: 150%;
+    font-size: 1rem;
     font-weight: 500;
 }
 
 .artigo {
-    height: 100vh;
+    height: 150vh;
     background-color: var(--amarelo-claro);
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 5%;
+    padding: 5%;
 }
 
 .titulo2 {
@@ -95,14 +99,14 @@ h1 {
 
 .titulo2 hr {
     width: 200%;
-    border: 3px solid rgba(38, 55, 12, 1);
+    border: 3px solid black;
     margin-left: 20px;
 }
 
 
 .manchete {
     width: 80%;
-    height: 50%;
+    height: 40%;
     background-color: var(--azul-claro);
     border-radius: 30px;
     padding: 2%;
@@ -124,7 +128,54 @@ h1 {
 
 .cardsArtigo {
     width: 80%;
-    height: 60%;
+    height: 30%;
     display: flex;
     justify-content: space-between;
+}
+
+.jornalistas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #7582d9;
+    background: linear-gradient(180deg, rgba(117, 130, 217, 1) 0%, rgba(2, 8, 56, 1) 100%);
+}
+
+.perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border: 3px solid white;
+}
+
+.cardJornalistasE {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3%;
+}
+
+.nomeJornalista {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.informacoesJornalistas {
+    height: 150px;
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.informacoesJornalistas hr {
+    width: 110%;
+    border: 2px solid black;
+    margin: 0 auto;
 }
