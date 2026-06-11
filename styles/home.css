@@ -11,34 +11,31 @@
 .navegacao {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
 }
 
 .direcionamento {
     text-decoration: none;
     list-style-type: none;
     font-size: 2rem;
+    font-weight: 600;
 }
 
 
 .banner {
-    background: #FDECAF;
-    background: linear-gradient(180deg, rgba(253, 236, 175, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: #d3eeae;
+    background: radial-gradient(circle, rgba(211, 238, 174, 1) 0%, rgba(147, 204, 143, 1) 100%);
     position: relative;
 }
 
 .absoluteTeste {
-    background: #FDECAF;
-    background: linear-gradient(180deg, rgba(253, 236, 175, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: #28659e;
+    background: radial-gradient(circle, rgba(40, 101, 158, 1) 65%, rgba(50, 72, 217, 1) 100%);
     height: 85vh;
     width: 100%;
     display: flex;
     align-items: center;
 }
-
-/* background: #FDECAF;
-background: linear-gradient(0deg, rgba(253, 236, 175, 0) 0%, rgba(253, 236, 175, 1) 100%); */
-
 
 .fundo-campo {
     width: 19%;
@@ -46,26 +43,88 @@ background: linear-gradient(0deg, rgba(253, 236, 175, 0) 0%, rgba(253, 236, 175,
 
 .textoBemvindo {
     position: absolute;
-    width: 36%;
-    height: 61%;
-    top: 20%;
-    left: 30%;
+    width: 55%;
+    height: 70%;
+    top: 15%;
+    left: 22%;
+    border-radius: 30px;
+    padding: 2%;
     background-color: var(--azul-claro);
 }
 
 .fundoTorto {
-    top: 19%;
-    left: 29%;
+    top: 15%;
+    left: 21.5%;
     position: absolute;
-    width: 38%;
-    height: 65%;
+    width: 56%;
+    height: 70%;
     background-color: var(--amarelo-claro);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transform: rotate(4deg);
+    transform: rotate(3deg);
+    border-radius: 30px;
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 700%;
+    font-weight: 800;
+}
+
+.introTxt {
+    font-size: 150%;
+    font-weight: 500;
+}
+
+.artigo {
+    height: 100vh;
+    background-color: var(--amarelo-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+}
+
+.titulo2 {
+    font-size: 500%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo2 hr {
+    width: 200%;
+    border: 3px solid rgba(38, 55, 12, 1);
+    margin-left: 20px;
+}
+
+
+.manchete {
+    width: 80%;
+    height: 50%;
+    background-color: var(--azul-claro);
+    border-radius: 30px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.cardArtigo {
+    width: 25%;
+    height: 100%;
+    background-color: var(--azul-claro);
+    border-radius: 30px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.cardsArtigo {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
 }

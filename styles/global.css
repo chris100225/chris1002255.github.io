@@ -11,7 +11,7 @@ body {
 
 :root {
     --verde-claro: #5cc256;
-    --amarelo-claro: #fdecaf;
+    --amarelo-claro: #f7edb8;
     --azul-claro: #b1d0ff;
 
     --tamanho-titulo: 36px;
@@ -19,5 +19,5 @@ body {
     --tamanho-subtitulo: 32px;
     --tamanho-texto-btn: 150%;
     --fonte-texto: 130%;
-    --fonte-padrao: "Bebas Neue", sans-serif;
+    --fonte-padrao: "Montserrat", sans-serif;
 }
